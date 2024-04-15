@@ -22,7 +22,7 @@ defmodule PhoenixTurbo.MixProject do
   defp deps do
     [
       {:phoenix, "~> 1.5"},
-      {:phoenix_html, ">= 2.0.0"},
+      {:phoenix_html_helpers, "~> 1.0"},
       {:ex_doc, "~> 0.23", only: :dev, runtime: false}
     ]
   end

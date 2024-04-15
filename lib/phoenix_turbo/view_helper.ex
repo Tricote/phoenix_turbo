@@ -1,5 +1,5 @@
 defmodule PhoenixTurbo.ViewHelper do
-  import Phoenix.HTML.Tag
+  use PhoenixHTMLHelpers
   import PhoenixTurbo, only: [dom_id: 1]
 
   @doc """
